@@ -8,8 +8,8 @@ phases:
       - sudo apt-get install nginx -y
     build:
       commands:
-        - echo Build started on dat
-        -cp index.html /var/www/html
+        - echo Build started on date
+        - cp index.html /var/www/html
     post_build:
       commands:
         - echo Configuration NGINX
