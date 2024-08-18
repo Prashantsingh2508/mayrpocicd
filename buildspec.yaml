@@ -15,5 +15,6 @@ phases:
         - echo Configuration NGINX
 artifacts: 
     files:
-      -index.html
+      - build/*
+      - index.html
       
