@@ -8,7 +8,7 @@ hooks:                    # is an array of scripts to be executed at different p
     - location: install_nginx.sh # specifies the location of the script file to be executed
       timeout: 300        # specifies the maximum amount of time in seconds that the script can run for.
       runas: root         # specifies the user that the script should be run as.
-  ApplicationStart:       # specifies a script to be executed after the application has started.
+  ApplicationStart:       # specifies script to be executed after the application has started.
     - location: start_nginx.sh
       timeout: 300
       runas: root
